@@ -1,0 +1,11 @@
+C:\Users\Windows10\source\repos\Morse\Morse\bin\Debug\Morse.exe.config
+C:\Users\Windows10\source\repos\Morse\Morse\bin\Debug\Morse.exe
+C:\Users\Windows10\source\repos\Morse\Morse\bin\Debug\Morse.pdb
+C:\Users\Windows10\source\repos\Morse\Morse\obj\Debug\Morse.csproj.AssemblyReference.cache
+C:\Users\Windows10\source\repos\Morse\Morse\obj\Debug\Morse.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows10\source\repos\Morse\Morse\obj\Debug\Morse.Properties.Resources.resources
+C:\Users\Windows10\source\repos\Morse\Morse\obj\Debug\Morse.csproj.GenerateResource.cache
+C:\Users\Windows10\source\repos\Morse\Morse\obj\Debug\Morse.csproj.CoreCompileInputs.cache
+C:\Users\Windows10\source\repos\Morse\Morse\obj\Debug\Morse.exe
+C:\Users\Windows10\source\repos\Morse\Morse\obj\Debug\Morse.pdb
+C:\Users\Windows10\source\repos\Morse\Morse\obj\Debug\Morse.Form1.resources
