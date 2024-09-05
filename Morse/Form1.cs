@@ -28,141 +28,122 @@ namespace Morse
         private void PlaySound(string c)
         {
             c=c.ToLower();
-            if (c == " ")
+            switch (c)
             {
-                Thread.Sleep(400);
-                return;
+                case " ":
+                    Thread.Sleep(400);
+                    break;
+            
+                case "a":
+                    Beep(shortt); Beep(longg);
+                    break;
+            
+                case "b":
+                    Beep(longg); Beep(shortt); Beep(shortt); Beep(shortt);
+                    break;
+            
+                case "c":
+                    Beep(longg); Beep(shortt); Beep(longg); Beep(shortt);
+                    break;
+            
+                case "d":
+                    Beep(longg); Beep(shortt); Beep(shortt);
+                    break;
+            
+                case "e":
+                    Beep(shortt);
+                    break;
+            
+                case "f":
+                    Beep(shortt); Beep(shortt); Beep(longg); Beep(shortt);
+                    break;
+            
+                case "g":
+                    Beep(longg); Beep(longg); Beep(shortt);
+                    break;
+            
+                case "h":
+                    Beep(shortt); Beep(shortt); Beep(shortt); Beep(shortt);
+                    break;
+            
+                case "i":
+                case "ı":
+                    Beep(shortt); Beep(shortt);
+                    break;
+            
+                case "j":
+                    Beep(shortt); Beep(longg); Beep(longg); Beep(longg);
+                    break;
+            
+                case "k":
+                    Beep(longg); Beep(shortt); Beep(longg);
+                    break;
+            
+                case "l":
+                    Beep(shortt); Beep(longg); Beep(shortt); Beep(shortt);
+                    break;
+            
+                case "m":
+                    Beep(longg); Beep(longg);
+                    break;
+            
+                case "n":
+                    Beep(longg); Beep(shortt);
+                    break;
+            
+                case "o":
+                    Beep(longg); Beep(longg); Beep(longg);
+                    break;
+            
+                case "p":
+                    Beep(shortt); Beep(longg); Beep(longg); Beep(shortt);
+                    break;
+            
+                case "q":
+                    Beep(longg); Beep(longg); Beep(shortt); Beep(longg);
+                    break;
+            
+                case "r":
+                    Beep(shortt); Beep(longg); Beep(shortt);
+                    break;
+            
+                case "s":
+                    Beep(shortt); Beep(shortt); Beep(shortt);
+                    break;
+            
+                case "t":
+                    Beep(longg);
+                    break;
+            
+                case "u":
+                    Beep(shortt); Beep(shortt); Beep(longg);
+                    break;
+            
+                case "v":
+                    Beep(shortt); Beep(shortt); Beep(shortt); Beep(longg);
+                    break;
+            
+                case "w":
+                    Beep(shortt); Beep(longg); Beep(longg);
+                    break;
+            
+                case "x":
+                    Beep(longg); Beep(shortt); Beep(shortt); Beep(longg);
+                    break;
+            
+                case "y":
+                    Beep(longg); Beep(shortt); Beep(longg); Beep(longg);
+                    break;
+            
+                case "z":
+                    Beep(longg); Beep(longg); Beep(shortt); Beep(shortt);
+                    break;
+            
+                default:
+                    // Handle unrecognized characters if needed
+                    break;
             }
-            if (c == "a")
-            {
-                Beep(shortt); Beep(longg);
-                return;
-            }
-            if (c == "b")
-            {
-                Beep(longg); Beep(shortt); Beep(shortt); Beep(shortt);
-                return;
-            }
-            if (c == "c")
-            {
-                Beep(longg); Beep(shortt); Beep(longg); Beep(shortt);
-                return;
-            }
-            if (c == "d")
-            {
-                Beep(longg); Beep(shortt); Beep(shortt);
-                return;
-            }
-            if (c == "e")
-            {
-                Beep(shortt);
-                return;
-            }
-            if (c == "f")
-            {
-                Beep(shortt); Beep(shortt); Beep(longg); Beep(shortt);
-                return;
-            }
-            if (c == "g")
-            {
-                Beep(longg); Beep(longg); Beep(shortt);
-                return;
-            }
-            if (c == "h")
-            {
-                Beep(shortt); Beep(shortt); Beep(shortt); Beep(shortt);
-                return;
-            }
-            if (c == "i" || c == "ı")
-            {
-                Beep(shortt); Beep(shortt);
-                return;
-            }
-            if (c == "j")
-            {
-                Beep(shortt); Beep(longg); Beep(longg); Beep(longg);
-                return;
-            }
-            if (c == "k")
-            {
-                Beep(longg); Beep(shortt); Beep(longg);
-                return;
-            }
-            if (c == "l")
-            {
-                Beep(shortt); Beep(longg); Beep(shortt); Beep(shortt);
-                return;
-            }
-            if (c == "m")
-            {
-                Beep(longg); Beep(longg);
-                return;
-            }
-            if (c == "n")
-            {
-                Beep(longg); Beep(shortt);
-                return;
-            }
-            if (c == "o")
-            {
-                Beep(longg); Beep(longg); Beep(longg);
-                return;
-            }
-            if (c == "p")
-            {
-                Beep(shortt); Beep(longg); Beep(longg); Beep(shortt);
-                return;
-            }
-            if (c == "q")
-            {
-                Beep(longg); Beep(longg); Beep(shortt); Beep(longg);
-                return;
-            }
-            if (c == "r")
-            {
-                Beep(shortt); Beep(longg); Beep(shortt);
-                return;
-            }
-            if (c == "s")
-            {
-                Beep(shortt); Beep(shortt); Beep(shortt);
-                return;
-            }
-            if (c == "t")
-            {
-                Beep(longg);
-                return;
-            }
-            if (c == "u")
-            {
-                Beep(shortt); Beep(shortt); Beep(longg);
-                return;
-            }
-            if (c == "v")
-            {
-                Beep(shortt); Beep(shortt); Beep(shortt); Beep(longg);
-                return;
-            }
-            if (c == "w")
-            {
-                Beep(shortt); Beep(longg); Beep(longg);
-                return;
-            }
-            if (c == "x")
-            {
-                Beep(longg); Beep(shortt); Beep(shortt); Beep(longg);
-                return;
-            }
-            if (c == "y")
-            {
-                Beep(longg); Beep(shortt); Beep(longg); Beep(longg);
-                return;
-            }
-            if (c == "z")
-            {
-                Beep(longg); Beep(longg); Beep(shortt); Beep(shortt);
-                return;
-            }
+
         }
 
         private void Wait() => Thread.Sleep(300);
